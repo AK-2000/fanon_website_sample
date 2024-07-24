@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" / type = "text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" / type = "text/css">
+    <link rel="stylesheet" href="css/lightbox.min.css" / type = "text/css">
+    <link rel="stylesheet" href="css/styles.css"  type = "text/css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Lightbox CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Fanon</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid" style="font-weight:bold;">
+          <a class="navbar-brand" href="https://www.fanon.co/">
+              <img src="images/fanon.png" style="width: 50%; height: 50%;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#text-start">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact-us">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                  </li>
+                  
+              </ul>
+          </div>
+      </div>
+    </nav>
+  
+    <header class="header vh-100 text-center position-relative">
+      <div
+        class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100"
+      >
+        
+        <h1 id="typing-text" class="display-1 fw-bold text-white"></h1>
+
+        
+        <h4 class="fw-bold text-primary gradient-text" style="font-size: 50px; color: #d452e3 !important;">Where Dreams Come True</h4>
+        
+
+        <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="text-start">
+              <span>More About Fanon</span>
+            </div>
+          </div>
+        </a>
+
+        <div class="social d-flex gap-3 position-absolute">
+          <a href="#">
+            <i class="fab fa-twitter fa-3x text-white"></i>
+          </a>
+          <a href="https://www.instagram.com/thisisfanon/">
+            <i class="fab fa-instagram fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook fa-3x text-white"></i>
+          </a>
+          <a href="https://www.youtube.com/@fanonofficial">
+            <i class="fab fa-youtube fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github fa-3x text-white"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about bg-light py-5">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="fw-bold text-primary" style="font-size: 50px;">HI THERE</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">What is Fanon?</h2>
+        </div>
+        <div class="video-container-wrapper">
+          <button class="arrow-button left-arrow" onclick="scrollVideosLeft()">&#10094;</button>
+          <div class="video-container">
+            <video class="video-item" controls>
+              <source src="videos/video1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video class="video-item" controls>
+              <source src="videos/video2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video class="video-item" controls>
+              <source src="videos/video3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video class="video-item" controls>
+              <source src="videos/video4.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video class="video-item" controls>
+              <source src="videos/video5.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video class="video-item" controls>
+              <source src="videos/video6.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <video class="video-item" controls>
+              <source src="videos/video7.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <button class="arrow-button right-arrow" onclick="scrollVideosRight()">&#10095;</button>
+        </div>
+        <div class="about-content d-flex gap-5 align-items-center h-100">
+          <p class="lead" style="font-family: 'Noto Sans Devanagari', sans-serif; text-align: justify; font-size: 25px;">
+            Fanon is the most engaging platform for visual fanfiction.
+Fanfiction refers to a genre of stories about popular fictional
+characters written by fans (Eg. What if Harry Potter was in
+Slytherin? What if Tony Stark adopted Peter Parker? What if
+Daenerys Targaryen became the queen of the seven kingdoms?)
+Fanon enables fanfiction writers to leverage AI and convert their
+written stories into multi-modal media (comics, video, audio), and to
+distribute their content. Going beyond content, Fanon will be the
+home for fans online. The long-term vision is to empower everyone
+to tell visual stories.
+          </p>
+          
+          
+        </div>
+        <div class="row">
+          <div class="image-container">
+              <div class="image-item">
+                  <a href="images/stories/profileimg1.png" data-lightbox="images1" 
+                  data-title="What if Harry Potter was in Slytherin?">
+                      <img
+                          src="images/stories/profileimg1.png"
+                          alt="Image 1"
+                          class="about-img img-fluid rounded-rectangle project shadow-lg rounded-5"
+                      />
+                  </a>
+                  <p class="paragraph1-position">
+                      What if Harry Potter was in Slytherin?
+                  </p>
+              </div>
+              <div class="image-item">
+                  <a href="images/stories/profileimg2.png" data-lightbox="images1" 
+                  data-title="What if Tony Stark adopted Peter Parker?">
+                      <img
+                          src="images/stories/profileimg2.png"
+                          alt="Image 2"
+                          class="about-img img-fluid rounded-rectangle project shadow-lg rounded-5"
+                      />
+                  </a>
+                  <p class="paragraph1-position">
+                      What if Tony Stark adopted Peter Parker?
+                  </p>
+              </div>
+              <div class="image-item">
+                  <a href="images/stories/profileimg3.png" data-lightbox="images1" 
+                  data-title="What if Daenerys Targaryen became the queen of the seven kingdoms?e">
+                      <img
+                          src="images/stories/profileimg3.png"
+                          alt="Image 3"
+                          class="about-img img-fluid rounded-rectangle project shadow-lg rounded-5"
+                      />
+                  </a>
+                  <p class="paragraph1-position">
+                      What if Daenerys Targaryen became the queen of the seven kingdoms?
+                  </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="styleshout text-bg-dark bg-gradient p-6 text-center">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h4 class="text-uppercase fw-bold text-primary" style="font-size: 50px;">Gallery</h4>
+        <hr class="w-25 mx-auto" />
+        <h2 class="mb-4">Check Out Some of My Fanart</h2>
+      </div>
+    </div>
+    <div id="carouselExample" class="carousel slide">
+      <div class="container-fluid my-5">
+        <button class="arrow-button left-arrow" onclick="scrollCarouselLeft()">&#10094;</button>
+          <div class="carousel-wrapper">  
+              <div class="scrolling-wrapper">
+                  <div class="image-container">
+                      <a href="images/fanart/image1.jpg" data-lightbox="gallery" data-title="Image 1">
+                          <img src="images/fanart/image1.jpg" alt="Image 1">
+                      </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image2.jpg" data-lightbox="gallery" data-title="Image 2">
+                      <img src="images/fanart/image2.jpg" alt="Image 2">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image3.jpg" data-lightbox="gallery" data-title="Image 3">
+                      <img src="images/fanart/image3.jpg" alt="Image 3">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image4.jpg" data-lightbox="gallery" data-title="Image 4">
+                      <img src="images/fanart/image4.jpg" alt="Image 4">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image5.jpg" data-lightbox="gallery" data-title="Image 5">
+                      <img src="images/fanart/image5.jpg" alt="Image 5">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image6.jpg" data-lightbox="gallery" data-title="Image 6">
+                      <img src="images/fanart/image6.jpg" alt="Image 6">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image7.jpg" data-lightbox="gallery" data-title="Image 7">
+                      <img src="images/fanart/image7.jpg" alt="Image 7">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image8.jpg" data-lightbox="gallery" data-title="Image 7">
+                      <img src="images/fanart/image8.jpg" alt="Image 8">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image9.jpg" data-lightbox="gallery" data-title="Image 7">
+                      <img src="images/fanart/image9.jpg" alt="Image 8">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image10.jpg" data-lightbox="gallery" data-title="Image 7">
+                      <img src="images/fanart/image10.jpg" alt="Image 8">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image11.jpg" data-lightbox="gallery" data-title="Image 7">
+                      <img src="images/fanart/image11.jpg" alt="Image 8">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image12.jpg" data-lightbox="gallery" data-title="Image 7">
+                      <img src="images/fanart/image12.jpg" alt="Image 8">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image13.jpg" data-lightbox="gallery" data-title="Image 7">
+                      <img src="images/fanart/image13.jpg" alt="Image 8">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image14.jpg" data-lightbox="gallery" data-title="Image 7">
+                      <img src="images/fanart/image14.jpg" alt="Image 8">
+                    </a>
+                  </div>
+                  <div class="image-container">
+                    <a href="images/fanart/image15.jpg" data-lightbox="gallery" data-title="Image 7">
+                      <img src="images/fanart/image15.jpg" alt="Image 8">
+                    </a>
+                  </div>
+              </div>
+          </div>
+          <button class="arrow-button right-arrow" onclick="scrollCarouselRight()">&#10095;</button>
+      </div>
+    </div>
+    
+    <!-- Stats -->
+    <section class="stats text-bg-secondary p-6" style="background: linear-gradient(to bottom, #000000, #333333);">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h4 class="text-uppercase fw-bold" style="font-size: 50px; color: #b60aad;">Statistics</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">Here are a few 
+            statistics in adopting features like Carousels, Navagation Bars
+          </h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-tachometer-alt fa-3x mb-3"></i>
+              <p class="fs-1">30%</p>
+              <h3 class="fs-6 text-uppercase">Reduction in Bounce Rates</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-hand-pointer fa-3x mb-3"></i>
+              <p class="fs-1">72%</p>
+              <h3 class="fs-6 text-uppercase">Rise in Click-Through Rates</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-thumbs-up fa-3x mb-3"></i>
+              <p class="fs-1">1.9%</p>
+              <h3 class="fs-6 text-uppercase">More Engagement</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-file-alt fa-3x mb-3"></i>
+              <p class="fs-1">20%</p>
+              <h3 class="fs-6 text-uppercase">Increase in Page Views</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-user-check fa-3x mb-3"></i>
+              <p class="fs-1">94%</p>
+              <h3 class="fs-6 text-uppercase">Increase in Usability</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="stat text-center border-end border-dark">
+              <i class="fas fa-users fa-3x mb-3"></i>
+              <p class="fs-1">60%</p>
+              <h3 class="fs-6 text-uppercase">More User-Friendly</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <!-- Portfolio -->
+    <section class="portfolio py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h4 class="text-uppercase fw-bold" style="font-size: 50px; color: #0a74b6;">Ideas for Improvement</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">Check Out Some of My Ideas to Improve Fanon</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/projects/project1.jpg"
+                data-lightbox="images"
+                data-title="Cliboard Landing Page"
+              >
+                <img
+                  src="images/projects/project1.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/projects/project2.jpg"
+                data-lightbox="images"
+                data-title="Loop Studios Website"
+              >
+                <img
+                  src="images/projects/project2.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/projects/project3.jpg"
+                data-lightbox="images"
+                data-title="Shortly Website"
+              >
+                <img
+                  src="images/projects/project3.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/projects/project4.jpg"
+                data-lightbox="images"
+                data-title="Flyo Website"
+              >
+                <img
+                  src="images/projects/project4.jpg"
+                  alt=""
+                  class="img-fluid rounded-3"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services text-bg-dark py-5 position-relative">
+      <div class="container position-relative">
+        <div class="text-center mb-5">
+          <h4 class="fw-bold" id = "services" style="font-size: 50px; color: #2377df;">SERVICES</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">What Can I Do For You?</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">Product Analyst</h3>
+            <hr class="w-25 mx-auto" />
+            <p class="fs-5" style="text-align: justify;">
+              I can use my product development and data analysis skills 
+              to launch new features and create impactful marketing campaigns. 
+              My passion for fandom and fanfiction, along with my expertise in 
+              social media management and storytelling, will drive Fanon’s 
+              community engagement and growth.
+            </p>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <i class="fas fa-globe fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">Web Developer</h3>
+            <hr class="w-25 mx-auto" />
+            <p class="fs-5" style="text-align: justify;">
+              As a web developer, I can create user-friendly interfaces and 
+              optimize performance for Fanon’s platform. My expertise in front-end 
+              and back-end development will enhance navigation, integrate new 
+              features, and support community growth.
+            </p>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <i class="fas fa-robot fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">AI Engineer</h3>
+            <hr class="w-25 mx-auto" />
+            <p class="fs-5" style="text-align: justify;">
+              As an AI engineer, I can automate image generation, integrate 
+              audio and animation, and enhance content recommendations. 
+              My skills in NLP, diffusion models, and Python will drive innovation 
+              on Fanon platform.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Contact -->
+    <section class="contact text-bg-dark py-5" style="background: linear-gradient(to bottom, #000000, #333333);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="text-center mb-5">
+              <h4 class="fw-bold" id="contact-us" style="font-size: 50px; color: #2377df;">CONTACT</h4>
+              <hr class="w-25 mx-auto" />
+              <h2 class="mb-4">I'd love to hear from you.</h2>
+              <p class="lead">
+                If you have any questions or would like to work together, please
+                contact me with the form below.
+              </p>
+            </div>
+
+            <!-- Form -->
+            <form name="contact" netlify>
+              <div class="mb-5">
+                <input
+                  type="text"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  name="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-5">
+                <input
+                  type="email"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="mb-5">
+                <textarea
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                  name="message"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="mb-5 d-grid">
+                <button type="submit" class="submit-on-click">Submit</button>
+              </div>
+            </form>
+            <div style="text-align: center; font-family: 'Great Vibes', cursive; font-weight: bolder; color: rgb(228, 224, 194); font-size: 50px;">
+              <p>Together, Lets Make Dreams Come True !!!</p>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <div class="d-flex mt-5">
+          <p class="flex-grow-1" style="text-align: justify;">
+            Copyright &copy; 2024 | Design By Akhil Gutala
+          </p>
+          <div class="hstack gap-3">
+            <a href="https://www.facebook.com/akhil.gutala/">
+              <i class="fab fa-facebook fa-2x text-white"></i>
+            </a>
+            <a class="text-decoration-none" href="https://x.com/akhil2ooo">
+              <i class="fab fa-twitter fa-2x text-white"></i>
+            </a>
+            <a class="text-decoration-none" href="https://www.instagram.com/ak2oooo/">
+              <i class="fab fa-instagram fa-2x text-white"></i>
+            </a>
+            <a class="text-decoration-none" href="https://www.linkedin.com/in/akhil-gutala-18a056201/">
+              <i class="fab fa-linkedin fa-2x text-white"></i>
+            </a>
+            <a class="text-decoration-none" href="https://github.com/AK-2000">
+              <i class="fab fa-github fa-2x text-white"></i>
+            </a>
+            <a class="text-decoration-none" href="https://www.deviantart.com/khaillin">
+              <i class="fab fa-deviantart fa-2x text-white"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--<script src="js/bootstrap.bundle.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+    <script>
+      document.querySelectorAll('.video-container video').forEach(video => {
+        video.removeAttribute('controls');
+        video.addEventListener('mouseover', () => {
+          video.setAttribute('controls', 'controls');
+        });
+        video.addEventListener('mouseout', () => {
+          video.removeAttribute('controls');
+        });
+      });
+    </script>
+  </body>
+</html>
